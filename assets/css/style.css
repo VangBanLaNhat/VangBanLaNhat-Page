@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background-color: #fff;
+  background-color: #cbe2fa;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 a:hover {
   color: #067ded;
   text-decoration: none;
-  background-color: #cbe2fa;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
