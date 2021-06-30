@@ -1,9 +1,3 @@
-/**
-* Template Name: MyResume - v4.2.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -11,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background-color: #cbe2fa;
+  background: linear-gradient(90deg,#d4f1f5,#cbe2fa);
 }
 
 a {
@@ -356,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1075,7 +1069,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1118,7 +1111,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1216,7 +1208,6 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
   color: #45505b;
   font-size: 14px;
   text-align: center;
