@@ -1,11 +1,16 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background: linear-gradient(90deg,#d4f1f5,#cbe2fa);
+  background: linear-gradient(90deg,#9dd7fd,#9fcbfe);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(90deg,#a2ceff,#9fcbfe);
+  }
 }
 
 a {
@@ -22,15 +27,35 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+
+.team .row {
+  display: flex;
+  justify-content: center;
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
   border-radius: 4px;
-  background: #fff;
+  background: rgba(255, 255, 255, 1);
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
+/*
+.team .member:hover {
+  background: #fff;
+  animation: team 1s linear;
+}
 
+@keyframes team {
+  from{
+    background: rgba(255, 255, 255, 0.3);
+  }
+  to{
+background: #fff;
+  }
+}
+*/
 .team .member .member-img {
   position: relative;
   overflow: hidden;
@@ -350,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -857,12 +882,34 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .row {
+  display: flex;
+  justify-content: center;
+}
+
 .services .icon-box {
   text-align: center;
+  background: rgba(255, 255, 255, 0.3);
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+@media screen and (max-width: 768px) {
+  .services .icon-box {
+    text-align: center;
+    padding: 40px 20px 80px 20px;
+    max-width: 300px;
+    max-height: 300px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    
+  }
+  
+  .services .row {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 .services .icon-box .icon {
