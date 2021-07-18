@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 
-body:before {
+/*body:before {
   content: "";
   background: rgba(255, 255, 255, 0.6);
   position: fixed;
@@ -19,7 +19,7 @@ body:before {
   top: 0;
   left: 0;
   right: 0;
-}
+}*/
 
 @media screen and (max-width: 768px) {
   body {
@@ -387,7 +387,7 @@ background: #fff;
   }
 }
 
-/*#hero:before {
+#hero:before {
   content: "";
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -395,7 +395,7 @@ background: #fff;
   top: 0;
   left: 0;
   right: 0;
-}*/
+}
 
 #hero h1 {
   margin: 0;
@@ -1158,7 +1158,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #45505b;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1268,14 +1268,14 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+#footerr {
   color: #45505b;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
 }
 
-#footer h3 {
+#footerr h3 {
   font-size: 36px;
   font-weight: 700;
   position: relative;
@@ -1284,18 +1284,20 @@ section {
   margin: 0 0 15px 0;
 }
 
-#footer p {
+#footerr p {
   font-size: 15;
-  font-style: italic;
+  position: relative;
+  font-style: "Poppins", sans-serif;
   padding: 0;
+  color: #45505b;
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
+#footerr .social-links {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
+#footerr .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
@@ -1310,16 +1312,18 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footerr .social-links a:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;
 }
 
-#footer .copyright {
+#footerr .copyright {
+  position: relative;
   margin: 0 0 5px 0;
+  color: #45505b;
 }
 
-#footer .credits {
+#footerr .credits {
   font-size: 13px;
 }
