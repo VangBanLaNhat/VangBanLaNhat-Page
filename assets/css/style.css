@@ -983,6 +983,10 @@ section {
     fill: #11dbcf
 }
 
+.services .sv-test {
+    font-size: 10px;
+}
+
 .testimonials .section-header {
     margin-bottom: 40px
 }
