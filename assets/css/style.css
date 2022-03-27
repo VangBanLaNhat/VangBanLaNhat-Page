@@ -80,6 +80,10 @@ body {
     width:100%;
     height: 100%;
   }
+  .team .member .member-img img {
+    width: 512px;
+    height: 512px;
+  }
   
   .team .member .social {
     position: absolute;
